@@ -16,14 +16,15 @@
 * 3. This notice may not be removed or altered from any source distribution.
 */
 
-#include "Box2D.h"
+#include "Box2D/Box2D.h"
 #include <stdio.h>
 
 #if 0
-#define EXPORT_DLL __declspec(dllexport) //å¯¼å‡ºdllå£°æ˜Ž
+#define EXPORT_DLL __declspec(dllexport) //µ¼³ödllÉùÃ÷
 #else
 #define EXPORT_DLL 
 #endif
+#include "Box2d/Box2D.h"
 
 extern "C"
 {
